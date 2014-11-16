@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Workshop4</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_and_read_from_db">AddAndReadFromDbActivity</string>
+    <string name="title_activity_active_android">ActiveAndroidActivity</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="description">Description</string>
+    <string name="insert">Insert into database</string>
+    <string name="row_id">Row id</string>
+    <string name="enter_all_Data">Please enter all data</string>
+    <string name="title_activity_delete_data_from_db">DeleteDataFromDb</string>
+
+</resources>
