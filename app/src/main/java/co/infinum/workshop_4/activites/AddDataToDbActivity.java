@@ -106,10 +106,15 @@ public class AddDataToDbActivity extends ActionBarActivity {
 
     private void setActiveAndroidClickListener () {
 
+        if (!checkText()) {
+            return;
+        }
+
+
         User user = new User();
-        user.setName("Ofca");
-        user.setSurname("Dolly");
-        user.setDescription("Black sheep");
+        user.setName(name.getText().toString());
+        user.setSurname(surname.getText().toString());
+        user.setDescription(description.getText().toString());
         user.save();
 
         rowNumber.setText(String.valueOf(user.getId()));
